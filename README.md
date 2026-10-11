@@ -36,7 +36,7 @@ There are two steps. The first one is the plugin. The second one is the tower.
 
 **Step 2: put in the tower**
 
-1. Double click the file **Kevin M AMS2 Tower V6.simhubdash**. SimHub puts the tower in for you.
+1. Unzip the download. Inside is a file called **Kevin M AMS2 Tower V6.simhubdash**. Double click it. SimHub puts the tower in for you.
 2. In SimHub, find **Kevin M AMS2 Tower** in your dashboards and turn it on as an overlay.
 
 The tower is tall and skinny (650 wide and 1440 tall). Put it at the side of your screen.
