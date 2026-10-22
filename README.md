@@ -36,13 +36,7 @@ There are two steps. The first one is the plugin. The second one is the tower.
 5. Right click the .dll, choose Properties, tick **Unblock** if you see it, and press OK. (Windows sometimes locks files that came from the internet.)
 6. Open SimHub. Go to Settings, then Plugins, and switch the Gary Swallow plugin **on**. Restart SimHub if it asks.
 
-> **Please do not copy only the .dll file.**
->
-> This is the easiest mistake to make, and it is a sneaky one, because nothing looks broken. SimHub opens. The plugin looks switched on. The tower even shows up on your screen. But the list of drivers stays empty, for ever, and nothing tells you why.
->
-> Here is what happens. The plugin wants to write into a folder called **RaceResults**. That folder comes in the zip. If you copied only the .dll, the folder is not there, so every time the plugin tries to write, it trips over and stops. It never gets as far as telling the tower who the drivers are.
->
-> Copy the whole zip and this will not happen to you.
+> **Copy everything from the zip, not just the .dll.** The plugin needs the folders that come with it. One is called **RaceResults**, and the plugin writes into it. Without them the tower shows no drivers.
 
 **Step 2: put in the tower**
 
@@ -117,9 +111,9 @@ The tower has to be small enough to fit on your screen, so it cannot show every 
 **The tower is empty, or the names are missing.**
 Check these four things, in this order. The first one is the most common by far.
 
-1. **Did you copy the whole Gary Swallow download, and not just the .dll?** Open this folder:
+1. **Check you copied the whole Gary Swallow download.** Open this folder:
    `C:\Program Files (x86)\SimHub\DashTemplates\GS - Options`
-   Look for a folder inside it called **RaceResults**. If it is not there, that is your problem. Go back to Step 1 and copy everything from the zip. If you would rather fix it by hand, you can simply make a new empty folder there and call it `RaceResults`.
+   There should be a folder inside it called **RaceResults**. If there is not, go back to Step 1 and copy everything from the zip, or simply make an empty folder there and call it `RaceResults`.
 2. **Check the game setting.** In AMS2: Options, then System, then Shared Memory, set to **Project CARS 2**. Then close the game and open it again. The game only reads this when it starts.
 3. **Check the plugin is on.** In SimHub: Settings, then Plugins, and make sure the Gary Swallow plugin is switched on.
 4. **Check Windows is not blocking it.** If you cannot see the plugin in that list at all, right click the .dll file, choose Properties, tick Unblock, and restart SimHub.
